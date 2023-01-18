@@ -1,0 +1,399 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: font-1;
+    src: url('Design-set2/Fonts/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: font-bold;
+    src: url('Design-set2/Fonts/Poppins-SemiBold.ttf');
+}
+header{
+width: 100%;
+background-color: rgb(87, 185, 162);
+position: relative;
+padding-top: 36px;
+padding-bottom: 65px;
+
+}
+.container{
+    width: 1600px;
+    margin: 0 auto;
+    transform: translateX(-100px);
+    
+}
+.left{
+    width: 800px;
+    float: left;
+    
+    
+}
+.right{
+    width: 800px;
+    float: right;
+    
+}
+.left-list li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    color: white;
+    font-family: font-1;
+    
+}
+.right{
+    display: inline-block;
+}
+.left-list a{
+    text-decoration: none;
+    color: white;
+}
+.right-list li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-family: font-1;
+    
+}
+.right-list a{
+    text-decoration: none;
+   color: white;
+}
+.ll1{
+    background-image: url(Design-set2/Icons/time.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.ll2{
+    background-image: url(Design-set2/Icons/call.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.btn1{
+    background-color: #EF4D38;
+    height: 50px;
+    width: 180px;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    transform: translateY(-30px);
+    font-size: 20px;
+    background-image: url(Design-set2/Icons/down-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 152px;
+    
+}
+.ll3{
+    background-image: url('Design-set2/Icons/down-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.ll4{
+    
+    background-image: url('Design-set2/Icons/down-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.ll5{
+    background-image: url('Design-set2/Icons/down-arrow.svg');
+    background-repeat: no-repeat;
+    height: 8px;
+    width: 20px;
+    background-color: black;
+    filter: invert();
+    border: none;
+    background-position: right;
+}
+.navbar2{
+    width: 100%;
+    position: relative;
+    padding-bottom: 77px;
+    padding-top: 1px;
+   
+    
+}
+.nav-left{
+    width: 500px;
+    float: left;
+   
+}
+.nav-right{
+    width: 882px;
+    float: right;
+   
+    
+    
+}
+.logo{
+    background-image: url(Design-set2/Images/logo.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+    transform: translate(5px,12px);
+}
+.nav-right-list li{
+   
+    font-family: font-1;
+    display: inline-block;
+    /* padding: 20px 30px; */
+    padding-top: 15px;
+    padding-right: 15px;
+    transform: translateX(30px);
+    font-family: font-1;
+    
+   
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-family: font-1;
+    
+}
+.search-box1{
+    height: 40px;
+    width: 230px;
+    border-radius: 100px;
+    border: 1px solid grey;
+    font-family: font-1;
+    
+    
+}
+.search-icon{
+    height: 21px;
+    width: 16px;
+    background-image: url(Design-set2/Icons/search.svg);
+    background-repeat: no-repeat;
+    background-color: black;
+    filter: invert();
+    border: none;
+    position: absolute;
+    transform: translate(-33px,11px);
+
+}
+::placeholder{
+    padding-left: 10px;
+}
+
+
+.banner{
+    width: 100%;
+    height: 650px;
+    background-image: url('Design-set2/Images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    opacity: 0.8;
+}
+.text-part{
+    position: absolute;
+}
+.wup1{
+    color: white;
+    transform: translate(521px,100px);
+    font-size: 45px;
+    font-family: font-bold;
+    text-align:left;
+}
+.wup2{
+    color: white;
+    font-family: font-1;
+    font-size: 21px;
+    transform: translate(505px,116px);
+}
+.book{
+    height: 55px;
+    width: 300px;
+    border-radius: 100px;
+    background-color: red;
+    position: absolute;
+    transform: translate(655px,316px);
+    color: white;
+    font-size: 20px;
+    border: none;
+    background-image: url('Design-set2/Icons/arrow.png');
+    background-repeat: no-repeat;
+    background-position: 265px;
+    font-family: font-1;
+}
+.images{
+    height: 130px;
+    width: 904px;
+    position: relative;
+    transform: translate(420px,425px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.tf{
+    background-image: url(Design-set2/Images/25years.png);
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 191px;
+    border-right: 1px solid grey;
+    
+}
+.brand{
+    background-image: url(Design-set2/Images/best-brand.png);
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 191px;
+}
+.top1{
+    background-image: url(Design-set2/Images/top2-1.png);
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 191px;
+}
+.top2{
+    background-image: url(Design-set2/Images/top2-2.png);
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 191px;
+}
+.fb{
+    background-image: url('Design-set2/Icons/facebook.png');
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+.twit{
+    background-image: url('Design-set2/Icons/twitter.png');
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+.insta{
+    background-image: url('Design-set2/Icons/insta.png');
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+.lnkd{
+    background-image: url('Design-set2/Icons/linkedin.png');
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+}
+.icons{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transform: translateY(270px);
+}
+
+.container2{
+    width: 1100px;
+    margin: 0 auto;
+    background: white;
+    transform: translateY(-70px);
+    box-shadow: 0px 4px 13px grey;
+   
+}
+.footer{
+   width: 100%;
+   position: relative;
+   /* padding-top: 40px;
+   padding-bottom: 40px; */
+  
+}
+.foot-textpart{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.fad{
+    color: red;
+    font-size: 20px;
+    font-weight: 200;
+}
+.foot-textpart li{
+list-style-type: none;
+display: inline-block;
+font-family: font-1;
+}
+.foot-textpart li a{
+  color: #59B8A2;
+  font-weight: 200;
+    
+}
+.vad{
+    font-size: 20px;
+    float: right;
+    transform: translateX(-58px);
+}
+.sel1{
+    height: 50px;
+    width: 250px;
+    border-radius: 100px;
+    border: 1px solid grey;
+    padding: 10px;
+    font-family: font-1;
+    
+}
+.sel1:active{
+    border: 1px solid grey;
+}
+.custom-select{
+    padding-top: 20px;
+    
+    
+}
+select {
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right !important;
+    appearance: none !important;
+    background-size: 12px 12px !important;
+    background-position: 95% 50% !important;
+   
+}
+.foot-options li{
+    display: inline-block;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.search-btn{
+    height: 50px;
+    width: 180px;
+    border-radius: 100px;
+    border: 1px solid grey;
+    background-color: #EF4D38;
+    color: white;
+}
+
+.search-icon2{
+    height: 20px;
+    width: 20px;
+    background-image: url(Design-set2/Icons/search.svg);
+    background-repeat: no-repeat;
+    background-color:#EF4D38;
+    border: none;
+    outline: none;
+    position: absolute;
+    transform: translate(-40px,17px);
+}
+
+
+
+
+
+
+
+
+
+
